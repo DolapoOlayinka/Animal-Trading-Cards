@@ -1,0 +1,58 @@
+/* add your CSS here */
+
+*{
+    background-color: antiquewhite;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    border-radius: 5px;
+    border: 2px lightgray solid;
+    width: 350px;
+    height:auto;
+    padding: 20px;
+    margin: 10px;
+   box-shadow: 3px 3px 5px rgb(204, 204, 204);
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(83, 83, 83);
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.img-box{
+    display: flex;
+    justify-content: center;
+}
+
+.caption {
+    font-style: italic;
+}
+
+.characteristics{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.content{
+    border-radius: 5px;
+    margin-top: 50px;
+    border: 2px solid lightgray;
+    box-shadow: 1px 1px 1px gray;
+    padding: 50px 10px;
+    height: auto;
+}
+
+p,.characteristics{
+   color:rgb(63, 61, 61) ;
+}
